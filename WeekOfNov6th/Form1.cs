@@ -130,5 +130,14 @@ namespace WeekOfNov6th
                 rtbOutput.Text += "m \r\n(meters)";
             }
         }
+
+        private void btn_file_Click(object sender, EventArgs e)
+        {
+            if ()
+            {
+                input type = "file" accept = "test.txt.txt";
+            }
+            
+        }
     }
 }
