@@ -133,10 +133,10 @@ namespace WeekOfNov6th
 
         private void btn_file_Click(object sender, EventArgs e)
         {
-            if ()
-            {
-                input type = "file" accept = "test.txt.txt";
-            }
+            string FilePath = "C:\\Users\\Julissa\\web\\test.txt"; 
+            string FileConetents = File.ReadAllText(FilePath) ;
+            rtbOutput = FileContents; 
+            
             
         }
     }
